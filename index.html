@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="img/Gideon.png" rel="website icon">
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400&display=swap" rel="stylesheet">
+    <title>Gideon Online</title>
+</head>
+<body>
+    <div class="display-none">
+        <img src="img/none.png">
+        <div class="none-text">
+            <p>Unfortunately, the site temporarily works only on a Desktop.</p>
+        </div>
+    </div>
+    <div class="theme-1"></div>
+    <div class="theme-2"></div>
+    <div class="theme-3"></div>
+    <div class="background">
+        <!--Top-->
+        <div class="block-top">
+            <div class="search-form">
+                <img src="img\form-icon.svg">
+                <input id="searchNotes" placeholder="Search in notes...">
+                <button class="cansel-search-notes">
+                    <img src="img/ClearSearch.png">
+                </button>
+            </div>
+            <div class="search-button">
+                <img src="img\search-icon.svg">
+            </div>
+        </div>
+        <!--Center-->
+        <div class="block-center">
+            <div class="canvas">
+                <div class="create-form">
+                    <div class="create-form-input">
+                        <input id="titleInput" type="text" class="input-form" placeholder="Title" autocomplete="off">
+                    </div>
+                    <div class="create-form-textarea">
+                        <textarea id="descriptionInput" class="textarea-form" placeholder="Text"></textarea>
+                    </div>
+                </div>
+                <div class="canvas-item-empty">Press + to create your first note</div>
+                <div id="noteContainer" class="canvas-item-1">
+                    <!--notes-->
+                </div>
+                <div id="search-results" class="search-results">
+                </div>
+            </div>
+            <div class="canvas-work">
+                <div class="global-search">
+                    <input id="searchInput" placeholder="Search" autocomplete="off">
+                    <div class="global-button" onclick="perGlobalSearch()">
+                        <img src="img\search-icon.svg">
+                    </div>
+                </div>
+                <div class="app-bar">
+                    <div class="app-form">
+                        <div class="app-form-title">
+                            <input type="text" placeholder="Name" id="inputName" autocomplete="off">
+                        </div>
+                        <div class="app-form-text">
+                            <input type="text" placeholder="Link" id="inputLink" autocomplete="off">
+                        </div>
+                        <div class="app-form-buttons">
+                            <button class="app-form-button-create" onclick="createApp()">Create</button>
+                            <button class="app-form-button-close">
+                                <img src="img/CloseApp.png">
+                            </button>
+                        </div>
+                    </div>
+                    <div class="app-create">
+                        <img src="img\create.svg">
+                    </div>
+                    <!--apps-->
+                </div>
+            </div>
+            <div class="canvas-other">
+                <div class="other-item">
+                    <div class="select-theme sl-1">
+                        Classic theme
+                    </div>
+                    <img class="other-img" src="img/theme-1.png">
+                </div>
+                <div class="other-item">
+                    <div class="select-theme sl-2">
+                        White theme
+                    </div>
+                    <img class="other-img" src="img/theme-2.png">
+                </div>
+                <div class="other-item">
+                    <div class="select-theme sl-3">
+                        Black theme
+                    </div>
+                    <img class="other-img" src="img/theme-3.png">
+                </div>
+            </div>
+         </div>
+         <!--Bottom-->
+         <div class="block-bottom">
+             <div class="block-bottom-left">
+                <div class="tab-container">
+                    <div class="tab active home-button" onclick="toggleTab(0)" title="Home">
+                        <img src="img\home.svg">
+                        <span>Home</span>
+                    </div>
+                    <div class="tab work-button" onclick="toggleTab(1)" title="Work">
+                        <img src="img\work.svg">
+                    </div>
+                    <div class="tab other-button" onclick="toggleTab(2)" title="Other">
+                        <img src="img\other.svg">
+                    </div>
+                </div>
+             </div>
+             <div class="block-bottom-right" id="block-right">
+                <button id="saveButton" class="confirm-button">
+                    <img src="img\create.svg">
+                </button>
+                <div class="create-button" title="Create notes">
+                    <img src="img\create.svg">
+                </div>
+             </div>
+         </div>
+     </div>
+     <script src="js/gideon-search.js"></script>
+     <script src="js/gideon-notes.js"></script>
+     <script src="js/gideon-tabs.js"></script>
+     <script src="js/gideon-show.js"></script>
+     <script src="js/gideon-global-search.js"></script>
+     <script src="js/gideon-app.js"></script>
+     <script src="js/gideon-theme.js"></script>
+</body>
+</html>
