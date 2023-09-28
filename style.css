@@ -1435,7 +1435,7 @@ span {
 
 .app-bar{
     height: 47px;
-    max-width: 335px;
+    width: 335px;
     bottom: 26.67px;
     border-radius: 24px;
 }
