@@ -23,7 +23,7 @@ body{
 }
 .display-none img{
     opacity: 70%;
-    width: 210px;
+    width: 240px;
 }
 .none-text{
     padding: 40px;
@@ -184,7 +184,7 @@ body{
     background: rgba(0, 0, 0, 0.25);
     backdrop-filter: blur(87.5px);
 }
-.highlighted {
+span {
     color: #ffc800;
 }
 .search-results{
@@ -1282,6 +1282,208 @@ body{
     border-radius: 26.67px;
 }
 }
+
+
+
+
+
+@media screen and (max-height: 750px) {
+.block-top{
+    height: 57px;
+    width: 800px;
+}
+
+.block-center {
+    height: 502px;
+    width: 985px;
+    border-radius: 40px;
+}
+
+.canvas{
+    height: 489px;
+    width: 971px;
+    border-radius: 33.33px;
+}
+
+.canvas-item-1{
+    height: 473px;
+    width: 953px;
+    border-radius: 26.67px;
+}
+
+.canvas-item-1 .note{
+    width: 230px;
+    height: 230px;
+    border-radius: 24px;
+}
+
+.create-form{
+    height: 473px;
+    width: 953px;
+    border-radius: 23px;
+}
+
+.create-form-input{
+    width: 98.5%;
+    height: 10%;
+    border-radius: 15px;
+}
+
+.create-form input{
+    font-size: 10.67px;
+}
+
+.create-form-textarea{
+    width: 98.5%;
+    height: 85%;
+    border-radius: 15px;
+}
+
+.create-form textarea{
+    font-size: 10.67px;
+}
+
+.note{
+    min-height: 230px;
+    min-width: 230px;
+    border-radius: 26.67px;
+}
+
+.fullscreen {
+    min-height: 473px;
+    min-width: 953px;
+}
+
+.fullscreen .delete-button{
+    top: 20px;
+    right: 20px;
+}
+.search-form{
+    height: 47px;
+    width: 737px;
+}
+
+.search-form input{
+    height: 37.33px;
+    width: 671px;
+}
+
+.search-button{
+    height: 47px;
+    width: 47px;
+}
+
+.block-bottom-left{
+    height: 57px;
+    width: 215px;
+}
+
+.tab.active{
+    height: 47px;
+    width: 108px;
+}
+.tab.active span{
+    color: #fff;
+}
+.tab{
+    height: 47px;
+    width: 47px;
+}
+
+.block-bottom-right{
+    height: 57px;
+    width: 57px;
+}
+
+.confirm-button{
+    width: 47px;
+    height: 47px;
+    border-radius: 40px;
+}
+
+.confirm-button:hover{
+    width: 53.33px;
+    height: 53.33px;
+}
+
+.create-button{
+    width: 47px;
+    height: 47px;
+    border-radius: 40px;
+}
+
+.create-button:hover{
+    width: 53.33px;
+    height: 53.33px;
+}
+
+.canvas-work{
+    height: 473px;
+    width: 953px;
+    border-radius: 26.67px;
+}
+
+.global-search{
+    height: 47px;
+    width: 300px;
+}
+
+.global-search input{
+    width: 238px;
+}
+
+.app-bar{
+    height: 47px;
+    max-width: 335px;
+    bottom: 26.67px;
+    border-radius: 24px;
+}
+
+.app{
+    height: 47px;
+    width: 47px;
+    border-radius: 18px;
+}
+
+.app-name{
+    margin-top: 60px;
+}
+
+.app-create{
+    height: 47px;
+    width: 47px;
+    border-radius: 18px;
+}
+
+.app-form{
+    width: 195.33px;
+    margin-left: 4px;
+    margin-bottom: -2px;
+}
+
+.delete-app{
+    margin-left: 0px;
+}
+
+.canvas-other{
+    flex-direction: row;
+    height: 473px;
+    width: 953px;
+    border-radius: 26.67px;
+}
+
+.other-img{
+    border-radius: 27px;
+}
+.select-theme{
+    border-radius: 18px;
+}
+}
+
+
+
+
+
 
 
 @media screen and (max-width: 1000px) {
