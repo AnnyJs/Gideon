@@ -861,6 +861,7 @@ span {
 .tab.active span {
     margin-left: 10px;
     transition: margin-left 0.2s;
+    color: #fff;
 }
 /* B bottom-button */
 .confirm-button{
