@@ -104,7 +104,7 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 60px;
+    min-height: 60px;
     width: 876px;
     gap: 5px;
     user-select: none;
@@ -206,7 +206,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 547px;
+    min-height: 547px;
     width: 1068px;
     border-radius: 47px;
     background: rgba(0, 0, 0, 0.25);
@@ -798,7 +798,7 @@ span {
     align-items: center;
     justify-content: center;
     flex-direction: row;
-    height: 54px;
+    min-height: 54px;
     width: 967px;
     gap: 11px;
     user-select: none;
@@ -809,7 +809,7 @@ span {
     align-items: center;
     justify-content: space-around;
     flex-direction: row;
-    height: 60px;
+    min-height: 60px;
     width: 234px;
     border-radius: 40px;
     background: rgba(0, 0, 0, 0.15);
@@ -819,7 +819,7 @@ span {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 60px;
+    min-height: 60px;
     width: 60px;
     border-radius: 40px;
     transition: opacity 0.3s;
@@ -905,7 +905,7 @@ span {
 
 @media screen and (min-width: 1600px) {
 .block-top{
-    height: 75px;
+    min-height: 75px;
     width: 1095px;
 }
 
@@ -915,7 +915,7 @@ span {
     right: 13px;
 }
 .block-center {
-    height: 684px;
+    min-height: 684px;
     width: 1335px;
     border-radius: 60px;
 }  
@@ -990,7 +990,7 @@ span {
     width: 58px;
 }
 .block-bottom-left{
-    height: 74px;
+    min-height: 74px;
     width: 293px;
 }
 .tab.active{
@@ -1002,7 +1002,7 @@ span {
     width: 63px;
 }
 .block-bottom-right{
-    height: 74px;
+    min-height: 74px;
     width: 74px;
 }
 .confirm-button{
@@ -1083,12 +1083,12 @@ span {
 
 @media screen and (max-width: 1200px) {
 .block-top{
-    height: 50px;
+    min-height: 50px;
     width: 730px;
 }
 
 .block-center {
-    height: 456px;
+    min-height: 456px;
     width: 890px;
     border-radius: 40px;
 }
@@ -1188,7 +1188,7 @@ span {
 }
 
 .block-bottom-left{
-    height: 49.33px;
+    min-height: 49.33px;
     width: 195.33px;
 }
 
@@ -1203,7 +1203,7 @@ span {
 }
 
 .block-bottom-right{
-    height: 49.33px;
+    min-height: 49.33px;
     width: 49.33px;
 }
 
@@ -1290,12 +1290,12 @@ span {
 
 @media screen and (max-height: 750px) {
 .block-top{
-    height: 57px;
+    min-height: 57px;
     width: 800px;
 }
 
 .block-center {
-    height: 502px;
+    min-height: 502px;
     width: 985px;
     border-radius: 40px;
 }
@@ -1375,7 +1375,7 @@ span {
 }
 
 .block-bottom-left{
-    height: 57px;
+    min-height: 57px;
     width: 215px;
 }
 
@@ -1392,7 +1392,7 @@ span {
 }
 
 .block-bottom-right{
-    height: 57px;
+    min-height: 57px;
     width: 57px;
 }
 
